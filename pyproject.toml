@@ -1,0 +1,20 @@
+[project]
+name = "projeto-cadastro"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "andersonazola",email = "Andersonazola492@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit (>=1.48.1,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "projeto_cadastro", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
