@@ -1,6 +1,6 @@
 import sqlite3
 
-#criar funções para usar no cdoigo principal
+#criar funções para usar no codigo principal
 
 #funcao para conectar as funcoes ao banco de dados
 def conectaDB():
