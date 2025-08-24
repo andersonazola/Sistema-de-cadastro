@@ -1,8 +1,12 @@
 
+![WhatsApp Image 2025-08-24 at 19 55 24](https://github.com/user-attachments/assets/9744fdd5-b10a-403d-ba29-b632cdd088b7)
+
+
+
 
 ## 📋 Cadastro de Clientes com Streamlit e SQLite
 
-Este projeto é uma aplicação web simples e funcional para **cadastro de clientes**, desenvolvida com **Python**, utilizando o framework **Streamlit** para a interface e **SQLite** como banco de dados local. Ele é ideal para quem está começando com desenvolvimento de aplicações interativas e quer entender como integrar uma interface com persistência de dados.
+Este projeto é uma aplicação web simples e funcional para **cadastro de clientes**, desenvolvida com **Python**, utilizando o **Streamlit** para a interface e **SQLite** como banco de dados local. 
 
 ---
 
@@ -23,26 +27,14 @@ Este projeto é uma aplicação web simples e funcional para **cadastro de clien
 
 ---
 
-### 📁 Estrutura do projeto
 
-```
-cadastro_clientes/
-├── interface.py         # Interface principal com Streamlit
-├── funcoes.py           # Funções para manipular o banco de dados
-├── clientes.db          # Banco de dados SQLite (gerado automaticamente)
-├── requirements.txt     # Lista de dependências
-├── README.md            # Documentação do projeto
-└── .gitignore           # Arquivos ignorados no Git
-```
-
----
 
 ### ⚙️ Como executar o projeto
 
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/cadastro-clientes.git
+git clone https://github.com/andersonazola/cadastro-clientes.git
 cd cadastro-clientes
 ```
 
@@ -76,18 +68,32 @@ streamlit run interface.py
 
 ---
 
-### 👤 Autor
+### 📄 Licença
 
 **Anderson Azola**  
+Este projeto está licenciado sob a MIT License.
 
+MIT License
 
----
+Copyright (c) 2025 [Anderson Azola]
 
-### 📷 Imagem de exemplo *(opcional)*
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
----
 
 
